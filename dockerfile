@@ -33,5 +33,5 @@ RUN apk add --update \
 # Ex. `docker run -v $PWD:/data `
 VOLUME ["/data"]
 
-# Ex. `docker run -ti jmcvea/openstack-client openstack server list`
+# Ex. `docker run -ti jjohnson/craystaci_cli openstack server list`
 CMD ["/bin/sh"]
